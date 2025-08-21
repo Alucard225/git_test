@@ -85,3 +85,187 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.main{
+    background-color: white;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img-placeholder
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.placeholder1{
+    display: flex; /* Allows this element to grow to the same size as the left */
+    height: 150px;
+    width: 150px;/* Replaced padding with a fixed height */
+
+    border-radius: 20px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 0;
+}
+.placeholder2{
+    display: flex; /* Allows this element to grow to the same size as the left */
+    height: 150px;
+    width: 150px;/* Replaced padding with a fixed height */
+
+    border-radius: 20px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 0;
+}
+.placeholder3{
+    display: flex; /* Allows this element to grow to the same size as the left */
+    height: 150px;
+    width: 150px;/* Replaced padding with a fixed height */
+
+    border-radius: 20px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 0;
+}
+.placeholder4{
+    display: flex; /* Allows this element to grow to the same size as the left */
+    height: 150px;
+    width: 150px;/* Replaced padding with a fixed height */
+
+    border-radius: 20px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 0;
+}
+
+.infotext{
+    color: #1F2937;
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.subtext{
+    height: 70px;
+    color: #1F2937;
+    display: flex;
+    margin:0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.subtext1{
+    display: flex;
+    width: 150px;
+}
+.subtext2{
+    display: flex;
+    width: 150px;
+}
+.subtext3{
+    display: flex;
+    width: 150px;
+}
+.subtext4{
+    display: flex;
+    width: 150px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+.quote-d{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.quote-text{
+    display: flex;
+    width: 70%;
+    color : #1f2937;
+    font-size:36px;
+    font-weight: lighter;
+    font-style: italic;
+    align-items: center;
+    margin-bottom: 0;
+}
+.quote-author{
+    display: flex;
+    font-weight: bold;
+    align-items: end;
+    margin-right: 100px;
+}
+.sign-up{
+
+    border-radius: 15px;
+    display: flex;
+    padding: 40px 120px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    gap: 150px;
+    color: white;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+
+}
+.sign-up-text{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 1px;
+}
+.sign-up-text2{
+    font-size: 18px;
+    margin-top: 1px;
+}
+.sign-up-button{
+    color: white;
+    border-color: aliceblue;
+    border-width: 3px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    padding: 10px 28px;
+    background-color: #3882F6;
+}
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.footer-text{
+    font-size: 18px;
+}
